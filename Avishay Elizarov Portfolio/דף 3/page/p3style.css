@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+}
+
+.container-image {
+    width: 60vw;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.container-form {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-from-title {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.container-from-title h1 {
+    font: normal normal 900 43px/63px hebo;
+    color: #020253;
+}
+
+.container-from-title p {
+    font: normal normal 900 20px/29px hebo;
+    color: #020253;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin: 1em 0;
+}
+
+.form-control input {
+    width: 418px;
+    height: 50px;
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    border: 0;
+    border-bottom: 4px solid #020253;
+}
+
+form-control label {
+    font: normal normal bold 16px/24px Heebo;
+    color: #2C2C2C;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    background: #020253 0% 0% no-repeat padding-box;
+    color: white;
+    font: normal normal bold 22px/30px Heebo;
+    margin: 1em 0;
+}
+
+#footer {
+    width: 100%;
+    height: 18px;
+    background: #FDBD03 0% 0% no-repeat padding-box;
+}
+
+.social-icons {
+    margin: 5em 10em;
+}
+
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+    }
+
+    .container-image {
+        width: 100vw;
+    }
+
+    img {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .form-control input {
+        width: 80vw;
+    }
+
+    .container-from-title label {
+        font: normal normal bold 10px/14px Heebo;
+    }
+
+    .container-from-title h1 {
+
+        font: normal normal 900 28px/41px Heebo;
+    }
+
+    .container-from-title p {
+        font: normal normal normal 15px/22px Heebo;
+    }
+
+    .container-from-title {
+        width: 80%;
+        margin-top: 5em;
+    }
+
+    .container-form {
+        width: 100vw;
+    }
+}

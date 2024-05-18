@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 590px;
+}
+
+.container {
+    top: -530px;
+    left: 700px;
+    width: 569px;
+    height: 643px;
+    background: #1A1A1AD4 0% 0% no-repeat padding-box;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    padding: 50px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    font: normal normal 900 36px/53px Heebo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.container p {
+    font: normal normal normal 20px/29px Heebo;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin: 3em 0;
+    color: white;
+    font: normal normal bold 14px/21px Heebo;
+}
+
+.form-control input {
+    width: 418px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+form-control label {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 418px;
+    height: 50px;
+}
+
+.btn {
+    background: #D31C75 0% 0% no-repeat padding-box;
+    width: 166px;
+    height: 50px;
+    font: normal normal bold 22px/30px Heebo;
+    letter-spacing: 0.33px;
+    color: #FFFFFF;
+    margin: 1em 0
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .container {
+        top: -300px;
+        left: 37px;
+        width: 299px;
+        height: 441px;
+    }
+
+
+    .form-control input {
+        width: 230px;
+        height: 28px;
+    }
+
+    .container-from-title label {
+        width: 230px;
+        height: 28px;
+    }
+
+    .container h1 {
+        font: normal normal 900 20px/30px Heebo;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+
+    .container p {
+        font: normal normal normal 14px/20px Heebo;
+        letter-spacing: 0px;
+        color: #F9F9F9;
+    }
+
+    .container-from-title {
+        width: 80%;
+        margin-top: 5em;
+    }
+
+    .container-form {
+        width: 100vw;
+
+    }
+
+    .btn {
+        text-align: right;
+        font: normal normal bold 25px/25px Heebo;
+        letter-spacing: 0.23px;
+        color: #FFFFFF;
+        width: 76px;
+        height: 33px;
+    }
+}

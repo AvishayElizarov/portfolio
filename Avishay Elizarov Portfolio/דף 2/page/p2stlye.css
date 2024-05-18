@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100px;
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+}
+
+.container-from-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-from-title h1 {
+    text-align: center;
+    font: normal normal normal 140px/231px Satisfy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+}
+
+.container-from-title h2 {
+    text-align: center;
+    font: normal normal normal 32px/38px Varela Round;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.container-from-title p {
+    text-align: center;
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+}
+
+.contact-right {
+    position: relative;
+    top: 550px;
+    left: 870px;
+}
+
+.contact-right input {
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    width: 418px;
+    height: 50px;
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+}
+
+.btn {
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    width: 150px;
+    height: 40px;
+    margin-top: 0.5em;
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    .container-from-title h1 {
+        font: normal normal normal 60px/86px Satisfy;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 36px #00000087;
+        width: 328px;
+        height: 93px;
+    }
+
+    .container-from-title h2 {
+        font: normal normal normal 18px/22px Varela Round;
+    }
+
+    .container-from-title p {
+        font: normal normal normal 16px/20px Varela Round;
+        margin-top: 0.5em;
+    }
+
+    .contact-right {
+        position: relative;
+        top: 550px;
+        left: -60px;
+    }
+
+    .contact-right input {
+        width: 302px;
+        height: 36px;
+    }
+
+    .btn {
+        width: 300px;
+        height: 33px;
+        font: normal normal normal 11px/13px Varela Round;
+        letter-spacing: 0px;
+        color: #2823FD;
+    }
+}
